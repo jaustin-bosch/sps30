@@ -42,7 +42,7 @@
  * To EXCLUDE I2C communication, maybe for resource reasons,
  * comment out the line below.
  */
-#define INCLUDE_I2C   1
+// #define INCLUDE_I2C   1
 
 /**
  * To EXCLUDE the serial communication, maybe for resource reasons
@@ -56,7 +56,7 @@
  * comment out line below in that case
  *
  */
-#define INCLUDE_SOFTWARE_SERIAL 1
+// #define INCLUDE_SOFTWARE_SERIAL 1
 
 /**
  * If the platform is an ESP32 AND it is planned to connect an SCD30,
@@ -72,7 +72,6 @@
 //#define SOFTI2C_ESP32 1
 
 #include "Arduino.h"                // Needed for Stream
-#include "printf.h"
 
 /**
  *  Auto detect that some boards have low memory. (like Uno)
